@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Lakehouse storage folders (don't commit heavy delta files to git)
+data/lakehouse/
+data/powerbi_export/
+data/raw/*.json
+!data/raw/.gitkeep
+
+# Spark temporary dirs
+/tmp/spark-warehouse/
+metastore_db/
+derby.log
+checkpoint/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# OS generated
+.DS_Store
+Thumbs.db
