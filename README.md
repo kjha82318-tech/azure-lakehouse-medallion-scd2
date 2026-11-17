@@ -119,7 +119,7 @@ azure-lakehouse-medallion-scd2/
 
 ### 1. Clone & Install
 ```bash
-git clone https://github.com/YOUR_USERNAME/azure-lakehouse-medallion-scd2.git
+git clone https://github.com/kjha82318-tech/azure-lakehouse-medallion-scd2.git
 cd azure-lakehouse-medallion-scd2
 
 python -m venv venv
